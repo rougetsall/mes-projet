@@ -1,0 +1,52 @@
+
+body{
+	background-image: url("hd-paysage-de-reve-3c35d54.jpg");}
+#bannier{
+	background-color: blue;
+	width: 900px;
+	height: 200px;
+	border-radius: 15px 15px 15px 15px;
+	margin: auto;
+	display: block;
+
+}
+#contene{
+	background-image: url("amina.png");
+
+	width: 900px;
+	height:800px;
+	border-radius: 15px 15px 15px 15px;
+	background-color: red;
+	margin: auto;
+	display: block;
+}
+#footer{
+	
+	width: 700px;
+	height: 100px;
+	border-radius: 15px 15px 15px;
+
+	margin: auto;
+	display: block;
+}
+a{  width: 75px;
+	height: 20px;
+	display: inline;
+	margin-left: 40px; 
+	background-color: #fff;
+	font-size: 30px;
+	border-radius: 10px;
+
+
+}
+a:hover,a:focus {
+	width: 70px;
+	height: 20px;
+	display: inline;
+	margin-left: 30px; 
+	background-color: red;
+	font-size: 30px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 20px 7px #000;
+
+}

@@ -1,0 +1,25 @@
+
+ <!-- value  -->
+       <?php 
+			if (isset($_GET['p'])){
+					 switch ($_GET['p']){
+						case 1: 
+							include("ajout_etudiant.php"); 
+						break;
+						case 2: 
+							include("lister_etudiant.php"); 
+						break;
+						default : 
+						include("accueil.php");
+						
+						break;	
+					}
+			  }
+			  
+			}else{
+				
+				include("admin/accueil.php");
+	  } 
+		?>
+       <!-- value-->
+?>

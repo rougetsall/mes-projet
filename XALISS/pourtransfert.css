@@ -1,0 +1,115 @@
+body
+  {
+  background-image: url("hd-paysage-de-reve-3c35d54.jpg");}
+.a
+  {
+	  background-color:gray;
+	
+  }
+  .p{
+	    background-color:red;
+  }
+.b
+  {
+	  background-color:blue;
+	 width:880px;
+  }
+  .c
+  {
+	  background-color:gray;
+	 width:840px;
+  }
+   .e
+  {
+	  background-color:gray;
+	  width:700px;
+	min-height:150px;
+	
+  }
+  
+  
+  #conterner{
+	margin:auto;
+	width:1000px;
+	min-height:200px;
+	
+  background-image: url("hd-paysage-de-reve-3c35d54.jpg");
+  }
+
+#banniere{
+background-image: url("dakar.jpg");
+	width:1000px;
+	height:145px;
+background-color: gray; 
+}
+#navigation{
+	width:1000px;
+	height:50px;
+	text-align:right;
+}
+a:hover     /* Apparence au survol des liens */ 
+{
+background-color: white;
+color: black;
+font-size: 10px;
+}
+a:active         /* Quand le visiteur clique sur le lien */ 
+{
+background-color: blue;
+}
+#contenue{
+
+	width:1000px;
+	min-height:200px;
+background-image: url("hd-paysage-de-reve-3c35d54.jpg");
+font-size:20px;
+
+
+}
+#sub_footer{
+	width:980px;
+	height:15px;
+
+	
+}
+#pie-de-page{
+	width:990px;
+	height:40px;
+background-image: url("hd-paysage-de-reve-3c35d54.jpg");
+
+}
+
+ul {
+ list-style-type:none;
+ position:relative;
+ }
+li {
+ margin-left:1px;
+ float:left; /*pour IE*/
+ }
+ul li a {
+ display:block;
+  float:left;
+ width:100px;
+ height:10px;
+ background-color:#6495ED;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ font-weight:bold;
+ padding:5px;
+ border:2px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ } 
+ .centrer
+ {
+margin-left:auto;	 
+margin-right:auto;
+width:500px;
+text-align:left;	
+ }

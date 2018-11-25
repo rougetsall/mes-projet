@@ -1,0 +1,128 @@
+body{
+	background-color:#F1F1F1;
+	margin:0px;
+	padding:0px;
+	background-image:url(argent.png);
+}
+h1{
+	color:#971C4B;
+	font-size:20px;
+	text-align:center;
+}
+
+.licence{
+	color:white;
+	background-color:green;
+}
+
+#conterner{
+	margin:auto;
+	width:1000px;
+	min-height:300px;
+	/*background-color:gray;*/
+   /* background-image:url(argent.png);**/
+
+}
+#banniere{
+	width:1000px;
+	height:120px;
+	background-color:#00CCFF;
+	color:white;
+	background-image:url(dakar.jpg);
+}
+#sub_banniere{
+	width:1000px;
+	background-color:#000000;
+	height:5px;
+}
+#navigation{
+	width:1000px;
+	height:25px;
+	text-align:right;
+}
+
+#contenue{
+	width:990px;
+	min-height:500px;
+	font-size:14px;
+	margin-left:5px;
+	margin-right:5px;
+	color:blue;
+    background-image:url(pays.jpg);
+
+}
+
+/*#sub_footer{
+	width:1000px;
+	background-color:#000000;
+	height:5px;
+}*/
+#pied_de_page{
+	width:1000px;
+	height: 45px;
+	color:white;
+	background-color:#00CCFF;
+}
+#sup_footer{
+	width:1000px;
+	background-color:#000000;
+	height:5px;
+}
+ul {
+ list-style-type:none;
+ position:relative;
+ }
+li {
+ margin-left:1px;
+ float:left; /*pour IE*/
+ }
+ul li a {
+ display:block;
+ float:left;   
+ width:100px;
+ height:25px;
+ background-color:orange;
+ color:white;
+ text-decoration:none;
+ text-align:left;
+ font-weight:bold;
+ padding:5px;
+ /*border:2px solid;*/
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ } 
+.titre_text{
+	color:#971C4B;
+	font-size:35px;
+	font-family:courrier;
+}
+.th_tab{
+	color:white;
+	text-align:center;
+	background-color:#000000;
+	height:30px;
+}
+a_lien{
+	color: white; 
+	text-decoration: underline;
+}
+a_lien:hover{
+	color: #999999; 
+	text-decoration: none;
+}
+input, textarea, select, option {
+ background-color:#FFF3F3;
+ }
+#plop {
+       text-decoration: blink;
+}
+.centrer {
+  margin-left : auto;
+  margin-right : auto;
+  width : 500px;
+  text-align : left;  /* pour résoudre le bug de centrage sous IE5 et IE6-7 en mode Quirks */
+}
